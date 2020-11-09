@@ -1,0 +1,19 @@
+a[target] {
+  background-color: yellow;
+}
+a[target="_blank"] {
+  background-color: red;
+}
+img [target~="mine"] {
+  border: 5px solid red;
+}
+
+[class^="top"] {
+  background: yellow;
+}
+[class$="text"] {
+  text-transform: uppercase;
+}
+[class*="con"] {
+  text-transform: capitalize;
+}
