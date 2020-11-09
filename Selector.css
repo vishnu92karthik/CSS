@@ -1,0 +1,38 @@
+* {
+  text-transform: capitalize;
+}
+
+p {
+  text-align: center;
+  color: red;
+  font-size: large;
+}
+#para {
+  text-align: left;
+  color: green;
+}
+.para {
+  text-align: right;
+  color: black;
+}
+h1.para {
+  text-align: center;
+  color: blue;
+}
+p.para-large {
+  text-align: center;
+  color: chartreuse;
+}
+h1,
+h2 {
+  font-size: small;
+}
+h1 + p {
+  text-transform: uppercase;
+}
+div#container > ul {
+  border: 5px solid green;
+}
+h1 ~ p {
+  text-transform: lowercase;
+}
